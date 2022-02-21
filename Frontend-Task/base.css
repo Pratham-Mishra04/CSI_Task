@@ -1,0 +1,195 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    width: 100vw;
+    position: relative;
+}
+
+nav{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30vw;
+    font-family: 'Merriweather Sans', sans-serif;
+    position:absolute;
+}
+.nav_title{
+    font-weight: 700;
+    font-size: 25px
+}
+.nav_list{
+    display: flex;
+    gap: 4vh;
+    font-weight: 400;
+}
+.nav_list a{
+    color: black;
+    text-decoration: none;
+}
+.top{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+.box1{
+    height: 90vh;
+    width: 50vw;
+    background: linear-gradient(rgb(37, 173, 190),rgb(212, 246, 255));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+.title{
+    width: 30vw;
+    font-size: 70px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.body{
+    width: 40vw;
+    font-size: 20px;
+    align-self: flex-end;
+    font-family: 'Nunito', sans-serif;
+}
+.box2{
+    height: 90vh;
+    width: 50vw;
+    background-image: url("building_photo.jpg");
+    background-size: cover;
+}
+.mid{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+.text{
+    display: flex;
+    width: 80vw;
+    height: 40vh;
+    align-items: center;
+}
+.midtitle{
+    width: 40vw;
+    font-size: 50px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.midtext{
+    width: 40vw;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 5vw;
+}
+.imag{
+    width: 80vw;
+    height: 70vh;
+    background-image: url("watch_photo.jpg");
+    background-size: cover;
+}
+.bottom{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(220, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+.profile_image{
+    width: 8vh;
+    height: 8vh;
+    background-color: azure;
+}
+img{
+    width: 8vh;
+    height: 8vh;
+}
+.profile_text{
+    
+}
+.name{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 0.5vh;
+    font-size: 25px;
+}
+.below{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(48, 48, 48);
+}
+.comment{
+    width: 60vw;
+    height: 20vh;
+    font-size: 21px;
+    font-family: 'Nunito', sans-serif;
+}
+footer{
+    height: 8vh;
+    width: 100vw;
+    background-color: #0b0e17;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.foot_title{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    gap: 1vh;
+}
+.foot_title img{
+    height: 5vh;
+    width: 5vh;
+}
+.foot_text{
+    color: rgb(156, 156, 156); 
+    margin-left: 10vh;
+}
+.foot_list{
+    height: 8vh;
+    width: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#image1{
+    background-image: url("instagram.png");
+    background-size: cover;
+    height: 6vh;
+    width: 6vh;
+}
+#image2{
+    background-image: url("facebook.png");
+    background-size: cover;
+    height: 7vh;
+    width: 7vh;
+}
+#image3{
+    background-image: url("twitter.png");
+    background-size: cover;
+    height: 4vh;
+    width: 4vh;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(34, 34, 34);
+  }
